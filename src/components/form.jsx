@@ -86,7 +86,6 @@ const Form = () => {
               type="url"
               className="form-control py-2 py-md-3 ps-3"
               placeholder="Shorten a link here..."
-              aria-describedby="url to be shortened"
               aria-label="url input"
               value={url}
               onChange={(e) => {
